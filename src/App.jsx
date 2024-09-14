@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar"
 import Carousell from "./Components/Carousell";
 import TrendingCards from "./Components/TrendingCrads";
 import Show from "./Components/show";
+import Genre from "./Components/Genre";
 
 
 
@@ -12,10 +13,11 @@ function App() {
 
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <Carousell/>
-      <TrendingCards /> */}
-      <Show />
+      <TrendingCards />
+      <Genre />
+      {/* <Show /> */}
     </>
   )
 }
