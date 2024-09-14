@@ -1,0 +1,23 @@
+import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./Components/Navbar"
+import Carousell from "./Components/Carousell";
+import TrendingCards from "./Components/TrendingCrads";
+import Show from "./Components/show";
+
+
+
+function App() {
+
+
+  return (
+    <>
+      {/* <Navbar />
+      <Carousell/>
+      <TrendingCards /> */}
+      <Show />
+    </>
+  )
+}
+
+export default App
