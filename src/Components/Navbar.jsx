@@ -3,10 +3,10 @@ import PersonIcon from '@mui/icons-material/Person';
 
 const Navbar = () => {
     return (
-        <nav className="bg-[#0A1023] text-white py-3 px-6 flex items-center justify-between">
+        <nav className=" bg-red-600 text-white py-3 px-6 flex items-center justify-between">
             {/* Left section: Logo */}
             <div className="flex items-center space-x-4">
-                <span className="font-bold text-lg">LeisureBookings</span>
+                <span className="font-bold text-lg">LeisureBookings.in</span>
             </div>
             {/* Right section: Options */}
             <div className="flex items-center space-x-4">

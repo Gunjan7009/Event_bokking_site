@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import firstSlide from '../assets/demo1.jpg';
-import secondSlide from '../assets/demo2.jpeg'
+import firstSlide from '../assets/Slider.jpg';
+import secondSlide from '../assets/Slider2.jpg'
 
 function Carousell() {
     return (
